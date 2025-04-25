@@ -12,7 +12,7 @@ def execute_command(command: str) -> int:
 
 
 def load_fixtures() -> None:
-    fixtures = []
+    fixtures = ["users", "tasks"]
 
     if fixtures:
         loaddata_command = f"python {PATH} loaddata"
